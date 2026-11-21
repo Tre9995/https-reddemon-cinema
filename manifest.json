@@ -1,0 +1,126 @@
+
+{
+  "id": "org.reddemon.cinema",
+  "version": "0.5.0",
+  "name": "RedDemon Cinema",
+  "description": "RedDemon Cinema movie and TV provider",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "kids-corner",
+      "name": "Kids Corner",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "reddemon-christmas-movies",
+      "name": "🎄 Christmas Movies",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "reddemon-kids-tv",
+      "name": "🧸 Kids TV Shows",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-marvel",
+      "name": "Marvel Movies",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-dc",
+      "name": "DC Movies",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-harry-potter",
+      "name": "Harry Potter",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-fast-furious",
+      "name": "Fast & Furious",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-jurassic-park",
+      "name": "Jurassic Park",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-transformers",
+      "name": "Transformers",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-toy-story",
+      "name": "Toy Story",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-shrek",
+      "name": "Shrek",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-ice-age",
+      "name": "Ice Age",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-pirates",
+      "name": "Pirates of the Caribbean",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-final-destination",
+      "name": "Final Destination",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "franchise-die-hard",
+      "name": "Die Hard",
+      "extra": [{ "name": "skip", "isRequired": false }]
+    },
+    {
+      "type": "movie",
+      "id": "reddemon-cinema-movies",
+      "name": "RedDemon Cinema Movies",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "reddemon-cinema-series",
+      "name": "RedDemon Cinema Series",
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ]
+    }
+  ],
+  "idPrefixes": ["tt", "tmdb:"]
+}
