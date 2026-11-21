@@ -830,4 +830,6 @@ app.get("/stream/:type/:id.json", async (req, res) => {
 // START SERVER
 // ==========================================
 
-app.listen(PORT, () => 
+app.listen(PORT, () => {
+  console.log(`RedDemon Cinema running on port ${PORT}`);
+});
